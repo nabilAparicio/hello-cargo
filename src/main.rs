@@ -15,7 +15,7 @@ enum Transmission {
 }
 
 fn car_factory(color: String, transmission: Transmission, convertible: bool, mileage: u32) -> Car {
-    let car: Car = {
+    let car = Car {
         color: color,
         transmission: transmission,
         convertible: convertible,
